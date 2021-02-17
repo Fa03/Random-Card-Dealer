@@ -1,29 +1,41 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
 body {
   background-color: green;
 }
 
-.Main_Cotainer {
-  display: inline-block;
+.carta {
+  /* display: inline-block; */
   margin: auto;
-
+  margin-top: 60px;
   height: 300px;
-  width: 150px;
+  width: 200px;
   background: white;
   border-radius: 4px;
   border: 1px solid black;
-  padding-top: 50px;
+  padding-top: 20px;
   position: relative;
 }
 
 .superior {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 2px;
+  left: 2px;
+  font-size: 50px;
+  margin-top: 2px;
+  margin-left: 15px;
 }
 
 .inferior {
   position: absolute;
-  top: 0;
-  right: 0;
+  bottom: 2px;
+  right: 2px;
+  font-size: 50px;
+  margin-bottom: 2px;
+  margin-right: 15px;
+  -webkit-transform: rotate(-180deg);
+}
+
+.medio {
+  text-align: center;
+  font-size: 80px;
+  padding-top: 10px;
 }
